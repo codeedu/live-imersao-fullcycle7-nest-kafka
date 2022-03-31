@@ -21,3 +21,12 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:3000/orders/b9e3f90e-3bf2-47b8-a4f0-f05c32ae3a69
+
+###
+POST http://localhost:3000/orders/producer
+Content-Type: application/json
+
+{
+    "name": "luiz carlos",
+    "evento": "imersão full cycle"
+}
